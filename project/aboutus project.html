@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mirae Saloon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url('slide1.jpg');
+  color: black;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+
+  font-size: 40px;
+  background-image: url('slide1.jpg');
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 70px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #6a8290;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.imageflex { 
+    display: flex; 
+}
+.imageflexcontent { 
+    margin-left: 15px; margin-top: 0; 
+}
+
+.side {
+  flex: 5%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #979292;
+  background-image:url("c:\Users\amira\OneDrive\Desktop\CT206\web\bg_footer1.jpg");
+}
+.p{
+text-align: justify;
+  text-justify: inter-word
+}
+
+}
+</style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="file:///C:/xampp/htdocs/project/aboutus%20project.html" class="active">About us </a>
+    <a href="http://localhost/project/registration.html">Book Now</a>
+      <a href="file:///C:/xampp/htdocs/project/hair.html">Hair</a>
+      <a href="file:///C:/xampp/htdocs/project/Waxing.html">Waxing</a>
+      <a href="file:///C:/xampp/htdocs/project/Massage.html" >Massage</a> 
+      <a href="file:///C:/xampp/htdocs/project/home%20page%20project.html" >Home</a>
+    </div>
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Our expertly selected and well-trained team is ready to go above and beyond for you. The same is true of our elegant saloon area, which is dedicated to the pleasure of our guests, as well as our commitment to creativity and artistry. Our goal is to make your day better while always setting the standard higher.</p>
+</div>
+
+<h2>About CEO & FOUNDER</h2>
+      <h1>Photo of me:</h1>
+
+<div class="imageflex">
+        <img src="c:\Users\amira\OneDrive\Desktop\CT206\web\ross.jpg" height="500px">
+        <h2>ROSS GELLER</h2>
+      <p class="imageflexcontent">A great boss is someone who inspires their employees to be their best selves.<br>
+        They should be able to identify their employees' best qualities and bring them out.<br>
+         Additionally, they should pinpoint growth opportunities, <br>
+         share them in a constructive manner and help develop a plan for improvement.</p>
+         
+  </div>
+      
+</div>
+<h2 style="text-align:center">Meet Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p align="center" ><img src="c:\Users\amira\OneDrive\Desktop\CT206\web\phoebe.jpg" alt="phoebe" style="width:50%"></p>
+      <div class="container">
+        <h2>Phoebe buffay</h2>
+        <p class="title">Hair Stylist</p>
+        <p>Specializes in blonding services and extensions fashion colors and fun haircuts.</p>
+        <p>phoebe@gmail.com</p>
+                <a href="https://www.instagram.com/lisakudrow/?hl=en"><button class="button">Contact</button></a>        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">    
+       <p align="center"><img src="c:\Users\amira\OneDrive\Desktop\CT206\web\joey.jpg" alt="Joey" style="width:50%"></p>
+      <div class="container">
+        <h2>Joey Tribianni</h2>
+        <p class="title">Hair Stylist & Masseurs</p>
+        <p> Loves blonding, long layers, grey coverage and men’s cuts.</p>
+        <p>joey@gmail.com</p>
+        <a href="https://www.instagram.com/mleblanc/?hl=en"><button class="button">Contact</button></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+       <p align="center"><img src="c:\Users\amira\OneDrive\Desktop\CT206\web\rachel.jpg" alt="rachel" style="width:50%"></p>
+      <div class="container">
+        <h2>Rachel green</h2>
+        <p class="title">Hair Stylist & Masseuses</p>
+        <p>Specializes in transformative color, lived in blondes, fashion colors and fun haircuts.</p>
+        <p>Rachel@gmail.com</p>
+                <a href="https://www.instagram.com/jenniferaniston/?hl=en"><button class="button">Contact</button></a>
+      </div>
+    </div>
+  </div>
+    <div class="footer">
+      <a href="https://www.facebook.com/friends.tv/" target="_blank"><img src="c:\Users\amira\OneDrive\Desktop\CT206\web\logo fb project.png" width="55" height="45" alt="Telegram" align="right" /></a>
+      <a href="https://www.instagram.com/friends/?hl=en" title="messenger" target="_blank"><img src="c:\Users\amira\OneDrive\Desktop\CT206\web\logo ig project.png" width="55" height="45" alt="Messenger" align="right" /></a>
+      <h2 align="left">MIRAE SALOON</h2>
+    
+      <p class="p" align="left">Jalan 6/91, Taman Shamelin Perkasa,</p>
+      <p class="p" align="left">56100 Kuala Lumpur,</p>
+      <p class="p" align="left">Wilayah Persekutuan Kuala Lumpur</p>
+    </div>
+</div>
+</body>
+</html>
